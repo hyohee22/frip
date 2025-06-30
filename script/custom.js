@@ -27,7 +27,7 @@ fetch('/frip/include/footer.html')
   })
 });
 
-fetch('../include/header.html')
+fetch('/frip/include/header.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
