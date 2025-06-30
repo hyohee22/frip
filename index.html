@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../images/favicon.png">
+  <title>트랜드 그 이상의 클래스, 클래스101</title>
+  <!-- swiper-bundle -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- icon -->
+   <link rel="icon" href="images/frip-icon.PNG">
+  <!-- bootstrap-icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-mobile.css">
+  <link rel="stylesheet" href="css/responsive-tablet.css">
+  
+</head>
+<body>
+  <!-- Login Modal -->
+  <div class="member-login-overlay" id="loginModal">
+    <div class="member-login">
+      <div class="member-account">
+        <h1 class="login-slogan">나를 성장시키는 배움,<br><em>클래스101</em>에서 시작하세요.</h1> 
+      </div>
+      <div class="login-field">
+        <div>
+          <input type="email" placeholder="이메일">
+        </div>
+        <div>
+          <input type="password" placeholder="비밀번호" maxlength="12">
+          <i class="toggle-pw bi bi-eye-slash"></i>
+        </div>
+        <button class="btn-member-primary" id="loginSubmit">로그인</button>
+      </div>
+      <div class="join-member">
+        클래스101가 처음이신가요? <a href="/html/member-register.html">간편 회원가입</a>
+      </div>
+      <div class="easy-login">
+        <a href="#none" class="btn-easy-login kakao">카카오로 시작하기</a>
+        <a href="#none" class="btn-easy-login facebook">페이스북으로 시작하기</a>
+        <a href="#none" class="btn-easy-login apple">Apple로 시작하기</a>
+        <span class="or">또는</span>
+        <a href="#none" class="btn-easy-login email">이메일 계정으로 시작하기</a>
+      </div>
+      <p class="login-notice">
+        처음 로그인하면 클래스101의 이용약관 및 개인정보처리방침에 동의한 것으로 간주합니다.
+      </p>
+      <button class="btn-modal-close">&times;</button>
+    </div>
+  </div>
+  <!-- Event Banner -->
+  <div class="front-event-banner">
+    <div class="event-banner-item mentor-apply">
+      <a href="#none">
+        <img src="images/event-banner-mentor.png">
+      </a>
+    </div>
+    <div class="event-banner-item new-year">
+      <a href="#none"><img src="images/event-banner-new-year.png"></a>
+    </div>
+    <div class="close-buttons">
+      <a href="#none" class="btn-hide">오늘 그만 보기</a>
+      <a href="#none" class="btn-close">닫기</a>
+    </div>
+  </div>
+  <!-- container front -->
+  <div class="container front">
+    <!-- Header -->
+    <div class="header-include"></div>
+    <!-- section : front-slider -->
+    <div class="swiper mySwiper front-slider">
+      <div class="swiper-wrapper front-slider-items">
+        <div class="swiper-slide front-slider-item">
+          <img src="images/front-slider-item01.webp" alt="" class="front-slider-item-wrap">
+        </div>
+        <div class="swiper-slide front-slider-item">
+          <img src="images/front-slider-item02.webp" alt="" class="front-slider-item-wrap">
+        </div>
+        <div class="swiper-slide front-slider-item">
+          <img src="images/front-slider-item03.webp" alt="" class="front-slider-item-wrap">
+        </div>
+        <div class="swiper-slide front-slider-item">
+          <img src="images/front-slider-item04.webp" alt="" class="front-slider-item-wrap">
+        </div>
+        <div class="swiper-slide front-slider-item">
+          <img src="images/front-slider-item05.webp" alt="" class="front-slider-item-wrap">
+        </div>
+      </div>
+    </div>
+    <!-- section : category-shortcut -->
+    <section class="category-shortcut">
+      <div class="category-shortcut-inner">
+        <div class="category-shortcut-items">
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon01.webp" alt="">
+            <span>액티비티</span>
+          </a>
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon02.webp" alt="">
+            <span>클래스</span>
+          </a>
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon03.webp" alt="">
+            <span>소개팅모임</span>
+          </a>
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon04.webp" alt="">
+            <span>문화모임</span>
+          </a>
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon05.webp" alt="">
+            <span>국내여행</span>
+          </a>
+          <a href="html/category-main.html" class="category-shortcut-item">
+            <img src="images/category-icon06.webp" alt="">
+            <span>해외여행</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- section : focus-class-->
+    <div class="focus-class">
+      <div class="focus-class-inner">
+        <div class="focus-class-content">
+          <div class="front-header">
+            <h2>주간 BEST🔥</h2>
+            <a href="#none" class="btn-view-all">전체 클래스 보기</a>
+          </div>
+          <div class="swiper mySwiper02 ">
+            <div class="swiper-wrapper focus-class-items">
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-01.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>하루만에 이코티콘 제작부터 판매</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-02.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>경리단길 전통주 아지트, 인싸막걸리</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-03.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>최신 개정판! 스마트스토어로 월 100만원 만들기, 평범한 사람이 돈을 만드는 비법</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-04.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>덕수궁 야간 투어 #5대 궁궐투어</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-05.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>붓기관리 촉촉 속광 피부 만들기</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-06.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>가족들과 함께 펜션 나들이 투어</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-07.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>매일 출퇴근 경제뉴스로 경제적 자유 누리기</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-08.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>편지 친구 할래요? 모르는 사람들과의 흥미진진 펜팔</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper mySwiper02 ">
+            <div class="swiper-wrapper focus-class-items">
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-08.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>편지 친구 할래요? 모르는 사람들과의 흥미진진 펜팔</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-07.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>매일 출퇴근 경제뉴스로 경제적 자유 누리기</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-06.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>가족들과 함께 펜션 나들이 투어</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-05.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>붓기관리 촉촉 속광 피부 만들기</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-04.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>덕수궁 야간 투어 #5대 궁궐투어</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-03.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>최신 개정판! 스마트스토어로 월 100만원 만들기, 평범한 사람이 돈을 만드는 비법</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-02.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>경리단길 전통주 아지트, 인싸막걸리</h4>
+                  <div class="class-info">프립 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide focus-class-item">
+                <div class="thumb">
+                  <img src="images/beyond-class-main-cover-01.webp" alt="">
+                  <span class="badge discount">30%할인</span>
+                </div>
+                <div class="overview">
+                  <h4>최신 개정판! 스마트스토어로 월 100만원 만들기, 평범한 사람이 돈을 만드는 비법</h4>
+                  <div class="class-info">클래스101 · 80강 ·16시간 30분</div>
+                  <div class="class-price">
+                    <div class="sale">30%</div>
+                    <div class="price-prev">132,000원</div>
+                    <div class="price-current">92,400원</div>
+                  </div>
+                  <div class="class-review">
+                    <div class="starts">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="rating">4.9</div>
+                    <div class="trainee">1,234명 수강</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section : best-class -->
+    <section class="best-class">
+      <div class="best-class-inner">
+        <div class="best-class-content">
+          <div class="front-header">
+            <h2>직장인들은 지금 여기서 만나요!</h2>
+            <a href="#none">전체보기</a>
+          </div>
+          <div class="best-class-wrap">
+            <div class="best-class-banner">
+              <a href="#none"><img src="images/best-class-main-cover.png" alt=""></a>
+            </div>
+            <div class="best-class-banner-tablet">
+              <a href="#none"><img src="images/best-class-main-cover-02.webp" alt=""></a>
+            </div>
+            <div class="best-class-items-outer">
+              <div class="best-class-items">
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-03.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>퇴근 후 함께는 양식 만들기 클래스</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-04.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>향기에 취하는 플로리스트 도전</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="best-class-items">
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-05.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>찍자마자 인생샷 건지는 사진 노하우</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-09.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>목표 달성을 위한 실전 주식투자 모의수업</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="best-class-items">
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-06.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>성심당 출신 제빵사에게 배우는 스콘 만들기</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="best-class-item" onclick="location.href='html/class-detail.html'">
+                  <div class="thumb">
+                    <img src="images/best-class-main-cover-07.webp" alt="">
+                  </div>
+                  <div class="overview">
+                    <h4>갊의 질 상승 내 손으로 꾸미는 인테리어</h4>
+                    <div class="class-info">
+                      프립 · 80강 ·16시간 30분
+                    </div> 
+                    <div class="class-price">
+                      <span class="sale">30%</span>
+                      <s class="price-prev">132,000원</s>
+                      <span class="price-current">92,400원</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section : early-bird -->
+    <section class="early-bird">
+      <div class="early-bird-inner">
+        <div class="early-bird-content">
+          <div class="countdown-wrap">
+            <div id="early-bird-countdown">
+              <div class="box" id="hour1">0</div>
+              <div class="box" id="hour2">0</div>
+              <div class="colon">:</div>
+              <div class="box" id="minute1">0</div>
+              <div class="box" id="minute2">0</div>
+              <div class="colon">:</div>
+              <div class="box" id="second1">0</div>
+              <div class="box" id="second2">0</div>
+            </div>
+          </div>
+          <div class="early-bird-banner">
+            <img src="images/banner-early-bird-01.jpg" alt="" class="banner-thumb">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section : blog -->
+    <section class="blog">
+      <div class="blog-inner">
+        <div class="blog-content">
+          <div class="front-header">
+            <h2>매거진</h2>
+            <a href="#none">전체보기</a>
+          </div>
+          <div class="blog-items">
+            <div class="blog-item">
+              <div class="thumb">
+                <img src="images/blog-cover-01.webp">
+              </div>
+              <div class="desc">
+                <div class="blog-sort">자기개발 | 언어</div>
+                <div class="blog-outline">
+                  <h4>매일 15분, 영어 원서 필사하기</h4>
+                  <p>매일 다짐만 하는 영어 필사 이번에는 꼭 성공하자! 매일 랜선클럽에서 영어 핑사하고 인증하자</p>
+                </div>
+                <div class="blog-writer">
+                  <div class="writer-avatar">
+                    <img src="images/mentor-avatar-05.png" alt="">
+                  </div>
+                  <div class="writer-info">
+                    <b>원어민 </b>
+                    <div class="date-comment">
+                      <span><i class="bi bi-calendar4"></i>May 24</span>
+                      <span><i class="bi bi-chat"></i>4 comments</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-item">
+              <div class="thumb">
+                <img src="images/blog-cover-03.webp">
+              </div>
+              <div class="desc">
+                <div class="blog-sort">취미 | 힐링</div>
+                <div class="blog-outline">
+                  <h4>불명으로 함께하는 힐링 ASMR</h4>
+                  <p>사회에서 받은 스트레스 불멍으로 날려버리자! ASMR까지 진행하는 올인원 힐링 여행 </p>
+                </div>
+                <div class="blog-writer">
+                  <div class="writer-avatar">
+                    <img src="images/mentor-avatar-02.png" alt="">
+                  </div>
+                  <div class="writer-info">
+                    <b>불쏘시개</b>
+                    <div class="date-comment">
+                      <span><i class="bi bi-calendar4"></i>May 24</span>
+                      <span><i class="bi bi-chat"></i>4 comments</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-item">
+              <div class="thumb">
+                <img src="images/blog-cover-05.webp">
+              </div>
+              <div class="desc">
+                <div class="blog-sort">자기개발 | 수입</div>
+                <div class="blog-outline">
+                  <h4>한달만에 인스타그램 인풀루언서</h4>
+                  <p>한 달 목표로 인스타그램에서 1만 팔로워, 100만 뷰 넘기는 특별한 방법. </p>
+                </div>
+                <div class="blog-writer">
+                  <div class="writer-avatar">
+                    <img src="images/mentor-avatar-03.png" alt="">
+                  </div>
+                  <div class="writer-info">
+                    <b>인플루언서</b>
+                    <div class="date-comment">
+                      <span><i class="bi bi-calendar4"></i>May 24</span>
+                      <span><i class="bi bi-chat"></i>4 comments</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section : slogan -->
+    <section class="slogan">
+      <div class="slogan-inner">
+        <div class="slogan-content">
+          <h2>프립 기획전</h2>
+          <p>
+            <em>20205년 6월</em> 지난달 가장 <em>사랑</em> 받은 프립 슈퍼호스트!</p>
+        </div>
+      </div>
+    </section>
+    <!-- section : tip-tech -->
+    <section class="tip-tech">
+      <div class="tip-tech-inner">
+        <div class="tip-tech-content">
+          <div class="front-header">
+            <h2>크루님들을 위한 고감도 경험!</h2>
+            <a href="#none">전체보기</a>
+          </div>
+          <div class="tip-tech-wrap">
+            <div class="tip-tech-items">
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>필수 유틸리티 </span>
+                  <h3>금요일 밤 퇴근 후 즐기는 직장인 모임</h3>
+                  <p>
+                    2010년 10월 시작하여 전통깊은 모임의 장을 마련합니다. 매주 금요일 밤이면 찾아오는 직장인들의 모임! 다양한 연령과 직업군으로 시간이 가는줄도 모르는 대화의 연속
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (1).png" alt="">
+                </div>
+              </div>
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>작업 생산성</span>
+                  <h3>척추를 올바르게 자세부터 바로 잡아주는 고감도 치료</h3>
+                  <p>
+                    사회인이라면 모두 갖고 있는 허리 통증! 허리에 대해 20년 연구한 전문가 3명의 체계적인 허리 치료! 
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (2).png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tip-tech-items">
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>지식공유자 인터뷰</span>
+                  <h3>내면의 잔재된 나를 찾아서</h3>
+                  <p>
+                    나도 모르는 나를 찾는 여정, 매일 다양하고 깊은 길문으로 찾아갑니다. 멘토와 함께 매일 진행하는 습관형성과 내면의 숨겨지는 나를 찾는 흔치않는 기회
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (3).png" alt="">
+                </div>
+              </div>
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>프로그램 관련</span>
+                  <h3>디자인의 약점을 보완해 줄 히든카드~ 미리캔버스</h3>
+                  <p>
+                    프론트엔드 에게 디자인 일이 생기면 좀 부담스러운게 사실이죠.
+한다고 해도 시간 대비 퀄리티가 마음에 들지 않는 경우가 많아서요. 포토샵 디자인도 잘하는 프론트엔드 라면 좋겠지만 여러가지를 모
+
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (4).png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tip-tech-items">
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>작업 생산성</span>
+                  <h3>몸을 디자인하는 발레의 세계에 빠져보세요</h3>
+                  <p>
+                    발레로 다져지는 탄탄한 바디라인, 1개월이면 눈에 띄게 달라지는 체형을 경험할 수 있습니다. 국민발레단에서 활동하던 전문 발레강사가 직접 가르치는 발레의 재미! 
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (5).png" alt="">
+                </div>
+              </div>
+              <div class="tip-tech-item">
+                <div class="tip-tech-info">
+                  <span>취미</span>
+                  <h3>드로잉으로 힐링 여행</h3>
+                  <p>
+                    매주 다른 주제의 드로잉으로 힐링 여행하기, 똥손이고 금손이고 모두 참여할 수 있는 오픈 클래스! 마지막주에는 작품 전시회까지 갖는 풀코스 드로잉 클래스입니다.
+                  </p>
+                </div>
+                <div class="thumb">
+                  <img src="images/tip-tech (6).png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#none" class="btn-tip-tech">Tip & Tech 기사 더 보기</a>
+        </div>
+      </div>
+    </section>
+    <!-- footer-include -->
+    <div class="footer-include"></div> 
+  </div>
+
+  <!-- swiper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <!-- custom.js -->
+  <script src="script/custom.js"></script>
+  <script src="script/swiper.js"></script>
+</body>
+</html>
