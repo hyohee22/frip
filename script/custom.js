@@ -7,7 +7,7 @@ fetch('경로')
 })
 */
 
-fetch('/frip/include/footer.html')
+fetch('../include/footer.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.footer-include').innerHTML = data;
@@ -27,7 +27,7 @@ fetch('/frip/include/footer.html')
   })
 });
 
-fetch('/frip/include/header.html')
+fetch('../include/header.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
