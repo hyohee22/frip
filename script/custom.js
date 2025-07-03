@@ -1,13 +1,8 @@
 /* ############ Include Files ############*/
 /* 
-fetch('경로')
-.then(response => response.text())
-.then(data => {
-  선택자.innerHTML = data;
-})
 */
 
-fetch('/include/footer.html')
+fetch('/frip/include/footer.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.footer-include').innerHTML = data;
@@ -27,7 +22,7 @@ fetch('/include/footer.html')
   })
 });
 
-fetch('/include/header.html')
+fetch('/frip/include/header.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
