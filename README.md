@@ -236,5 +236,5 @@
 
 ## 5. 관련 링크
 
-* [프로젝트 GitHub Repository](https://github.com/your-repo-link)
+* [프로젝트 GitHub Repository](https://github.com/hyohee22/frip.git)
 * [배포된 웹사이트 링크]([https://your-deployed-site-link](https://hyohee22.github.io/frip/index.html)
