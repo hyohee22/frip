@@ -1,4 +1,4 @@
-# 🏡 Website Redesign Project: 프립
+# 🤹 Website Redesign Project: 프립
 
 안녕하세요! 프립 웹사이트 리디자인 프로젝트에 대한 README입니다.
 
