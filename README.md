@@ -65,13 +65,30 @@
 
 ## 2. 파일 구성
 ```
-🌱 housing management
- ┣ 📂 images     
- ┣ 📂 css    
- ┗ 📂 js    
-   📄 index.html    
-   📄 login_index.html   
-   📄 sub_index.html
+🌱 fsip
+ ┣ 📄 index.html  
+ ┣ 📂 images
+ ┣ 📂 html
+   📄 category-main.html
+   📄 class-detail.html
+   📄 member-register.html
+   📄 take-course.html  
+ ┣ 📂 css
+ ┣ 📂 style
+   📄 fonts.scss
+   📄 reset.scss
+   📄 responsive-mobile.scss
+   📄 responsive-tablet.scss
+   📄 style.scss
+   📄 variables.scss
+ ┣ 📂 include
+   📄 footer.html
+   📄 header.html    
+ ┗ 📂 script
+   📄 custom.js
+   📄 swiper.js   
+
+
 ```
 
    </br>
